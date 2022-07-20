@@ -18,7 +18,6 @@ class RestaurantTest {
         restaurant= new Restaurant("Paradise Biryani","Hyderabad",openingTime,closingTime);
         restaurant.addToMenu("Chicken Biryani",200);
         restaurant.addToMenu("Mutton Biryani",300);
-
     }
 
 
@@ -39,7 +38,6 @@ class RestaurantTest {
         //WRITE UNIT TEST CASE HERE
         when(spyRestaurant.getCurrentTime()).thenReturn(LocalTime.parse("23:30:00"));
         Assertions.assertFalse(spyRestaurant.isRestaurantOpen());
-
     }
 
     //<<<<<<<<<<<<<<<<<<<<<<<<<OPEN/CLOSED>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
