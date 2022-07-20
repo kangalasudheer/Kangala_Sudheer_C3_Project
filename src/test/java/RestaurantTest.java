@@ -18,6 +18,7 @@ class RestaurantTest {
         restaurant= new Restaurant("Paradise Biryani","Hyderabad",openingTime,closingTime);
         restaurant.addToMenu("Chicken Biryani",200);
         restaurant.addToMenu("Mutton Biryani",300);
+
     }
 
 
